@@ -1,0 +1,23 @@
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body{
+    min-width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.images{
+    min-width:50px;
+    height:50px;
+    float:left;
+}
+
+footer{
+    background-color: #666666
+}
