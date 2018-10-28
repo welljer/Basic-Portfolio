@@ -4,8 +4,12 @@ header{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:left;
+
 }
 
+hr{
+    Padding: 1px solid lightslategrey;
+}
 h1{
     background-color: #4aaaa5;
 }
@@ -35,6 +39,7 @@ span{
     content: "";
     clear: both;
     display: table;
+ 
 }
 
 body{
@@ -42,8 +47,9 @@ body{
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
-    background-image:url(../assets/images/leaves.jpeg);
+    background-image:url(../images/leaves.png);
     background-repeat: repeat;
+    border: 1px;
 }
 
 .images{
@@ -79,6 +85,115 @@ body{
     border: none;
 }
 
-footer{
-    background-color: #666666
+.button:hover{
+    cursor: pointer;
+}
+
+.block1{
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block2 {
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block{
+    float:left;
+    width:50%;
+    padding: 8px;
+    border: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* ///----for portfolio page----/// */
+#container {
+    background-color:whitesmoke;
+    width:100%;
+    margin:5,0;
+    border:1px;
+    box-sizing:border-box;
+    height: 100%;
+    float: left;
+}
+
+/* hr{
+    padding:none;
+    margin-bottom:10px;
+} */
+
+#container2 {
+    background-color:whitesmoke;
+    width:100%;
+    margin: 5px 0px;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+/* ///----Header and Nav bar-------/// */
+#container1{
+    background-color:whitesmoke;
+    width:100%;
+    border:1px 1px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    
+}
+
+.text-block1 {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.text-block2 {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.text-block {
+    position: absolute;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:200px;
+    width:62.5%;
+    padding:10px;
+}
+
+.footer{
+    margin-top:1px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    width:150%;
+    padding:10px;
+    Position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align:center;
 }
